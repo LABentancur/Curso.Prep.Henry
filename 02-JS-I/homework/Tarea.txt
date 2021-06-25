@@ -19,7 +19,7 @@ representar
 Ej: var NombreVariable ='Luis Bentancur';
     let Variablenombre ='muy buenos dias';
     
-    const  Es una variable la cual no se podra cambiar, es decir que siempre sera el mismo, en toda la aplicacion.
+    const  Es una variable la cual no se podra cambiar, es decir que siempre sera el mismo, en toda la aplicación.
     const NombrePrograma='Curso Henry'
 
 
@@ -29,9 +29,9 @@ var NombreVariable ="Luis Bentancur"
 
 3) Que es una Funcion 
 Esta es una serie de instrucciones se repiten una y otra vez, sin estas funciones el código de la aplicación es mucho más largo porque 
-muchas instrucciones están repetidas que realizan una tarea en concreto, es decir que dicho codigo lo podemos reutilizar facilmente.
-En cambio si no existieran uno deberia de modificar todas las instrucciones repetidas, y realizar tantas modificaciones como veces 
-se haya escrito esa instrucciónes, lo que se convierte en un trabajo muy pesado ,de esta forma podemos cometer muchos errores, de 
+muchas instrucciones están repetidas que realizan una tarea en concreto, es decir que dicho código lo podemos reutilizar fácilmente.
+En cambio si no existieran uno debería de modificar todas las instrucciones repetidas, y realizar tantas modificaciones como veces 
+se haya escrito esa instrucciones, lo que se convierte en un trabajo muy pesado ,de esta forma podemos cometer muchos errores, de 
 esta forma solo modificamos una vez.
 
 En el siguiente ejemplo, las instrucciones que suman los dos números y muestran un mensaje con el resultado se repiten una y otra vez
@@ -41,14 +41,14 @@ function suma(x, y) {
   return resulta;  
 }
 
-y la podemos llamar de la siguente forma 
+y la podemos llamar de la siguiente forma 
 suma(129,210);  
 339   // es lo que arroja el resultado
 
 
 4) Que es Declaraciones `if`
 
-If es una declaracion condicional se utilizan para decidir , entre una accion y la otra, si una condición es verdadera,
+If es una declaración condicional se utilizan para decidir , entre una acción y la otra, si una condición es verdadera,
 puede realizar una acción y si la condición es falsa, puede realizar otra acción.
 
 ejemplo :  
@@ -76,5 +76,5 @@ verdadero / falso, existe / no existe, es decir, información que únicamente pu
 
 Ejemplo:
 
-const estado =false;   // de esta forma sera siempre igual
-var estado = true;     // esta forma puede ser true pero tambien puede ser false
+const estado =false;   // de esta forma será siempre igual
+var estado = true;     // esta forma puede ser true pero también puede ser false

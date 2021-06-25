@@ -4,7 +4,7 @@
 const nuevaString = "comercio";
 
 // Crea una variable gitnumérica, puede ser cualquier número:
-const nuevoNum = 1255;
+const nuevoNum = 1260;
 
 // Crea una variable booleana:
 const nuevoBool = true;
