@@ -1,0 +1,80 @@
+    1 * Variables
+	2 * Strings
+	3 * Funciones (argumentos, `return`)
+	4 * Declaraciones `if`
+	5 * Valores booleanos (`true`, `false`)
+
+
+1) Que es una Variable
+
+Una variable es un espacio de almacenamiento especial.
+En ellas podemos guardar datos como números, cadenas de texto.
+Tenemos 3 tipos de Variables
+    var   
+    let
+    const 
+
+Para crear una variable es necesario usar la palabra clave, var seguido del nombre que deseamos declarar, luego un signo = y el valor que deseamos
+representar 
+Ej: var NombreVariable ='Luis Bentancur';
+    let Variablenombre ='muy buenos dias';
+    
+    const  Es una variable la cual no se podra cambiar, es decir que siempre sera el mismo, en toda la aplicacion.
+    const NombrePrograma='Curso Henry'
+
+
+2) Que es un Strings 
+Un string es una de los tipo de dato en este caso es una cadena de texto es "Luis Bentancur"
+var NombreVariable ="Luis Bentancur"   
+
+3) Que es una Funcion 
+Esta es una serie de instrucciones se repiten una y otra vez, sin estas funciones el código de la aplicación es mucho más largo porque 
+muchas instrucciones están repetidas que realizan una tarea en concreto, es decir que dicho codigo lo podemos reutilizar facilmente.
+En cambio si no existieran uno deberia de modificar todas las instrucciones repetidas, y realizar tantas modificaciones como veces 
+se haya escrito esa instrucciónes, lo que se convierte en un trabajo muy pesado ,de esta forma podemos cometer muchos errores, de 
+esta forma solo modificamos una vez.
+
+En el siguiente ejemplo, las instrucciones que suman los dos números y muestran un mensaje con el resultado se repiten una y otra vez
+
+function suma(x, y) {
+  var resulta = x + y;
+  return resulta;  
+}
+
+y la podemos llamar de la siguente forma 
+suma(129,210);  
+339   // es lo que arroja el resultado
+
+
+4) Que es Declaraciones `if`
+
+If es una declaracion condicional se utilizan para decidir , entre una accion y la otra, si una condición es verdadera,
+puede realizar una acción y si la condición es falsa, puede realizar otra acción.
+
+ejemplo :  
+si (condición)
+{
+    líneas de código que se ejecutarán si la condición es verdadera
+}
+    demás
+{
+    líneas de código que se ejecutarán si la condición es falsa
+}
+
+  if(num < 90) {
+    return true;
+  } else {
+    return false;
+  }
+
+
+5) Valores booleanos (`true`, `false`)
+
+Que es una variable booleana, esta es una forma de asigna como contenido true ó false.
+Estas variables se usan para almacenar información del tipo sí / no, cumple / no cumple, 
+verdadero / falso, existe / no existe, es decir, información que únicamente puede tener dos estados.
+
+Ejemplo:
+
+const estado =false;   // de esta forma sera siempre igual
+var estado = true;     // esta forma puede ser true pero tambien puede ser false
