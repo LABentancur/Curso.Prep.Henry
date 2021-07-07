@@ -1,0 +1,8 @@
+
+1 ) `for`
+2 )  `&&`, `||`, `!`
+
+1) Un for se usa cuando queremos repetir un conjunto de instrucciones un número finito de veces.
+
+2) Son operadores lógicos “&&” y “||” son usados para evaluar dos expresiones, dando como resultado nuevas expresiones lógicas. 
+El operador “&&” corresponde al booleano AND, lo que vendría siendo “y”; y el operador “||” corresponde al booleano OR, lo que sería equivalente a “o”

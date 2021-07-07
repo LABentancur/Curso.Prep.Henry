@@ -51,14 +51,14 @@ function multiplica(x, y) {
   // Tu código:
   var resulta = x * y;
   return resulta;
-  }
+}
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
   var resulta = x / y;
   return resulta;
-  }
+}
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
@@ -69,8 +69,7 @@ function sonIguales(x, y) {
   }else {
     return false;
   }
-return false;
-  
+  return false;  
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -99,8 +98,12 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  return num > 50;
- }
+  if( num > 50) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
@@ -142,8 +145,10 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  var resulta =num * num * num;
-  return resulta;
+  //  var resulta =num * num * num;
+  // return resulta;
+  var resulta =Math.pow(num, 3);
+  return resulta;  
 }
 
 function elevar(num, exponent) {
@@ -191,7 +196,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return str + '!';
+  return str + "!";
 }
 
 function combinarNombres(nombre, apellido) {
